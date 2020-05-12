@@ -14,9 +14,7 @@ gunicorn = "*"
 flask-cors = "*"
 cachetools = "*"
 python-dateutil = "*"
-wget= "*"
 xmltodict = "*"
-atoma = "*"
 
 [requires]
 python_version = "3.8"
