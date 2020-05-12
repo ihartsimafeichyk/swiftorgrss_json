@@ -10,7 +10,7 @@ Getting all entries:
 GET /all
 ```
 ```json
-{ {"feed":{"feed":{"@xmlns":"http://www.w3.org/2005/Atom","entry":[{"author":{"name" ...}
+{"feed":{"feed":{"@xmlns":"http://www.w3.org/2005/Atom","entry":[{"author":{"name"}
 ````
 
 ## License
