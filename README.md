@@ -44,7 +44,7 @@ You will need the following things properly installed on your computer.
 https://api.mongodb.com/python/current/examples/tls.html
 
 ### Bash tips:
-You can resume a stopped job by using the `fg`
-You can see jobs you have running using the `jobs`
-You may `kill` the command with either it's jobspec or PID. For instance: `kill %1`
-More here [There are stopped jobs (on bash exit)](https://unix.stackexchange.com/questions/116959/there-are-stopped-jobs-on-bash-exit)
+* You can resume a stopped job by using the `fg`
+* You can see jobs you have running using the `jobs`
+* You may `kill` the command with either it's jobspec or PID. For instance: `kill %1`
+* More here [There are stopped jobs (on bash exit)](https://unix.stackexchange.com/questions/116959/there-are-stopped-jobs-on-bash-exit)
