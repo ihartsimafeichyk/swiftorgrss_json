@@ -40,10 +40,10 @@ You will need the following things properly installed on your computer.
 
 ## Troubleshooting
 
-###TLS/SSL and PyMongo
+### TLS/SSL and PyMongo
 https://api.mongodb.com/python/current/examples/tls.html
 
-###Bash tips:
+### Bash tips:
 You can resume a stopped job by using the `fg`
 You can see jobs you have running using the `jobs`
 You may `kill` the command with either it's jobspec or PID. For instance: `kill %1`
