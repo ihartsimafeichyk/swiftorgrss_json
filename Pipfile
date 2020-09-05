@@ -16,9 +16,6 @@ cachetools = "*"
 python-dateutil = "*"
 xmltodict = "*"
 flask-mongoengine = "*"
-dnspython = "*"
-pyopenssl = "*"
-certifi = "*"
 
 [requires]
 python_version = "3.8"
