@@ -4,4 +4,4 @@ from app.data.data_loader import get_data
 
 @app.route('/all')
 def all():
-    return jsonify( get_data())
+    return jsonify(get_data())

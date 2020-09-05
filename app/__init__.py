@@ -6,9 +6,10 @@ from app.settings import *
 app = Flask(__name__)
 CORS(app)
 
-# Import assets, models, routes, etc. 
+# Import assets, models, routes, etc.
 from . import routes
+from . import routes_v2
 
 # Run the application (server).
 if __name__ == 'main':
-    app.run(port=PORT, threaded=True)
+    app.run(port=PORT, ssl_context='adhoc', threaded=True, debug=True)
