@@ -12,4 +12,4 @@ from . import routes_v2
 
 # Run the application (server).
 if __name__ == 'main':
-    app.run(port=PORT, ssl_context='adhoc', threaded=True, debug=True)
+    app.run(port=PORT, threaded=True, debug=false)
