@@ -1,0 +1,17 @@
+if you’ve deployed your app on heroku from heroku website and you want to run a
+heroku command like heruko logs or heruko open but it results with the following error:
+
+Error: Missing required flag:
+ ›     -a, --app APP  app to run command against
+ ›   See more help with --help
+
+This is because, heruko CLI doesn’t know the app you want to run this command for.
+So to resolve this error, you need to tell heroku about the app you want to run these commands.
+
+For that, follow these steps:
+
+1- Initialise with git: git init
+2- Get the app name: heroku apps
+3- Add remote:
+
+heroku git:remote -a your_app_name

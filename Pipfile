@@ -16,6 +16,7 @@ cachetools = "*"
 python-dateutil = "*"
 xmltodict = "*"
 flask-mongoengine = "*"
+flask-pymongo = "*"
 
 [requires]
 python_version = "3.8"
